@@ -1,11 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700");
 
 
 /* colour scheme */
 .social a {
   font-size: 2em;
   padding: 0.25em;
+}
+
+.fa-facebook,
+.fa-google,
+.fa-github,
+.fa-instagram,
+.fa-discord,
+.fa-linkedin,
+.fa-spotify {
+  color: white;
+}
+
+.fa-facebook:hover,
+.fa-google:hover,
+.fa-github:hover,
+.fa-instagram:hover,
+.fa-discord:hover,
+.fa-linkedin:hover,
+.fa-spotify:hover {
+  color: #d5d5d5;
 }
 
 
