@@ -31,9 +31,12 @@
   height: 100%;
   max-width: 650px;
   padding: 1.5em;
+  border: 10px solid #8FB5FB;
+  background-color: #8FB5FB;
 }
 
 .container-fluid h1 {
+  font-family: Montserrat;
   text-align: center;
 }
 
@@ -51,6 +54,7 @@
 }
 
 .carousel-caption h1 {
+  font-family: Montserrat;
   font-size: 500%;
   text-transform: uppercase;
   text-shadow: 1px 1px 15px #000;
@@ -61,6 +65,10 @@
   font-weight: 500;
   text-shadow: 1px 1px 10px #000;
   padding-bottom: 1rem;
+}
+
+.padding {
+  padding-top: 2rem;
 }
 
 
