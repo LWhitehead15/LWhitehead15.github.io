@@ -26,6 +26,46 @@
   color: #d5d5d5;
 }
 
+.container-fluid img {
+  width: 100%;
+  height: 100%;
+  max-width: 650px;
+  padding: 1.5em;
+}
+
+.container-fluid h1 {
+  text-align: center;
+}
+
+.container-fluid p {
+
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-caption h1 {
+  font-size: 500%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+}
+
+.carousel-caption h3 {
+  font-size: 200%;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #000;
+  padding-bottom: 1rem;
+}
 
 
 /*---Media Queries --*/
