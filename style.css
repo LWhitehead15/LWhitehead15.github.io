@@ -29,13 +29,10 @@
 .container-fluid img {
   width: 100%;
   height: 100%;
-  max-width: 650px;
   padding: 1.5em;
-  border: 10px solid #8FB5FB;
-  background-color: #8FB5FB;
 }
 
-.container-fluid h1 {
+.container-fluid h1, h3 {
   font-family: Montserrat;
   text-align: center;
 }
@@ -69,8 +66,20 @@
 
 .padding {
   padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
+footer {
+  background-color: #15294E;
+  color: #d5d5d5;
+  padding-top: 2rem;
+}
+
+hr.light {
+  border-top: 1px solid #d5d5d5;
+  width: 75%; margin-top: 0.8rem;
+  margin-bottom: 1rem;
+}
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
