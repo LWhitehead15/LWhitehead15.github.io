@@ -107,8 +107,11 @@ hr.light {
 @media (max-width:1920px) {
 
   /* slider */
+  .carousel-caption {
+    top: 54%;
+  }
   .carousel-caption h1 {
-    font-size: 700%;
+    font-size: 650%;
   }
   .carousel-caption h3 {
     font-size: 250%;
