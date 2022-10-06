@@ -86,11 +86,11 @@ hr.light {
 
   /* slider */
   .carousel-caption {
-    top: 55%;
+    top: 50%;
   }
   .carousel-caption h1 {
     font-size: 900%;
-    text-shadow: 3px 3px 45px #000;
+    text-shadow: 4px 4px 45px #000;
   }
   .carousel-caption h3 {
     font-size: 300%;
@@ -100,7 +100,7 @@ hr.light {
   .carousel-caption .btn{
     font-size: 250%;
     font-weight: 500;
-    padding: 16px 28px;
+    padding: 14px 24px;
   }
 }
 
@@ -108,27 +108,24 @@ hr.light {
 
   /* slider */
   .carousel-caption {
-    top: 54%;
+    top: 52%;
   }
   .carousel-caption h1 {
     font-size: 650%;
   }
   .carousel-caption h3 {
-    font-size: 250%;
+    font-size: 200%;
     font-weight: 450;
   }
   .carousel-caption .btn{
     font-size: 200%;
-    font-weight: 450;
+    font-weight: 400;
   }
 }
 
 @media (max-width:1496px) {
 
   /* slider */
-  .carousel-caption {
-    top: 52%;
-  }
   .carousel-caption h1 {
     font-size: 500%;
     text-shadow: 2px 2px 30px #000;
