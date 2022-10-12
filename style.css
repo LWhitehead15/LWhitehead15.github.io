@@ -17,6 +17,19 @@
   color: white;
 }
 
+.fa-laptop-code,
+.fa-keyboard,
+.fa-computer{
+  font-size: 10em;
+  margin: 0.25em;
+  color: #15294E;
+}
+
+.fa-laptop-code:hover,
+.fa-keyboard:hover,
+.fa-computer:hover{
+  color: #4f6aa0;
+}
 .fa-facebook:hover,
 .fa-github:hover,
 .fa-instagram:hover,
@@ -65,8 +78,7 @@
 }
 
 .padding {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding: 2rem;
 }
 
 footer {
@@ -75,10 +87,9 @@ footer {
   padding-top: 2rem;
 }
 
-hr.light {
-  border-top: 1px solid #d5d5d5;
-  width: 75%; margin-top: 0.8rem;
-  margin-bottom: 1rem;
+
+.spec {
+  font-family: Montserrat;
 }
 
 /*---Media Queries --*/
