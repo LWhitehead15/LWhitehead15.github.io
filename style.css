@@ -92,6 +92,12 @@ footer {
   font-family: Montserrat;
 }
 
+.contact {
+  font-family: Montserrat;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
 /*---Media Queries --*/
 @media (max-width:2560px) {
 
@@ -194,7 +200,7 @@ footer {
   }
   
   @media (max-width: 768px) {
-    /* slider */
+    /*home slider */
     .carousel-caption {
       top: 48%;
     }
@@ -211,6 +217,11 @@ footer {
     .carousel-caption .btn{
       font-size: 75%;
       padding: 6px 10px;
+    }
+    /* contactme page */
+    .contact {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
     }
   }
 
@@ -253,6 +264,10 @@ footer {
     }
     .proj {
       padding-bottom: 0.5rem;
+    }
+    /* contactme page */
+    .contact h5 {
+      font-size: 80%;
     }
   }
 
